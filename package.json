@@ -1,0 +1,45 @@
+{
+  "name": "claude-role-command-tool",
+  "version": "1.0.0",
+  "description": "CLI tool to generate Claude custom command files for different development personas",
+  "main": "src/index.js",
+  "bin": {
+    "claude-role-command-tool": "./bin/claude-role-command-tool"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/**/*.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "claude",
+    "cli",
+    "development",
+    "personas",
+    "commands",
+    "ai",
+    "anthropic"
+  ],
+  "author": "echo304",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/echo304/claude-role-command-tool.git"
+  },
+  "homepage": "https://github.com/echo304/claude-role-command-tool#readme",
+  "bugs": {
+    "url": "https://github.com/echo304/claude-role-command-tool/issues"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "chalk": "^4.1.2",
+    "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "eslint": "^8.42.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

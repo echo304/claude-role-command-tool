@@ -1,0 +1,45 @@
+# Development files
+test/
+*.test.js
+.nyc_output/
+coverage/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependencies (optional - npm will handle this)
+node_modules/
+
+# Git files
+.git/
+.gitignore
+
+# Temporary files
+tmp/
+temp/
+
+# Example output
+.claude/
+
+# Build artifacts
+dist/
+build/
